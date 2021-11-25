@@ -1,0 +1,12 @@
+Q.5 ->Select * from S;
+Q.6 ->Select `S#`,SNAME from S;
+Q. 7-> Select PNAME, COLOR from P where city="London";
+Q.8-> Select * from S where city='London';
+Q.9->Select * from S where city='Paris' or city='Athens';
+Q.10->Select * from P where city='Athens';
+Q.11->SELECT PNAME FROM P WHERE WEIGHT BETWEEN 12 AND 14;
+Q.12->SELECT * FROM S WHERE STATUS > 20 OR STATUS =20;
+
+Q.13->SELECT * FROM S WHERE CITY!='LONDON';
+Q.14->SELECT CITY FROM S;
+Q.15->SELECT WEIGHT,WEIGHT*1000,WEIGHT/1000 FROM P;
